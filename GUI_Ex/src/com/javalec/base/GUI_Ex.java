@@ -150,7 +150,6 @@ public class GUI_Ex {
 					case 3 : 
 						try {
 							double resultDiv = (double)num1 / num2;
-//							tf_Result.setText(Integer.toString(resultDiv));  break;
 							tf_Result.setText(String.format("%2.3f", resultDiv));  break;
 							
 						}catch (Exception e) {
